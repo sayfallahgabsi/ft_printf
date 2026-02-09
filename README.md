@@ -13,10 +13,10 @@
 </p>
 
 ## Description
-La bibliothèque ft_printf est une implémentation personnalisée de la fonction printf en langage C. Elle offre une variété de spécificateurs de format pour formater et afficher les données de manière flexible.
+The ft_printf library is a custom implementation of the printf function in the C language. It offers a variety of format specifiers for formatting and displaying data in a flexible manner.
 
-## Structure du Projet
-Le projet est organisé comme suit:
+## Project structure
+The project is organized as follows :
 
 ```
 .
@@ -40,21 +40,20 @@ Le projet est organisé comme suit:
     └── ft_print_unsigned.c
 ```
 
-Le projet contient un dossier `includes` pour les fichiers d'en-tête, un dossier `libft` avec les modules de la bibliothèque, un fichier `Makefile` pour la compilation du projet, et un dossier `srcs` avec les fichiers source de la bibliothèque.
+The project contains an `includes` folder for header files, a `libft` folder with library modules, a `Makefile` file for compiling the project, and an `srcs` folder with the library source files.
 
 ## Compilation
-Pour compiler la bibliothèque ft_printf, utilisez le fichier `Makefile` à la racine du projet. Exécutez la commande suivante dans le terminal:
-
+To compile the ft_printf library, use the `Makefile` file at the root of the project. Run the following command in the terminal:
 ```bash
 make all
 ```
 
-Cela générera la bibliothèque `libftprintf.a` dans le répertoire racine.
+This will generate the `libftprintf.a` library in the root directory.
 
-## Utilisation
-Pour utiliser la bibliothèque ft_printf dans votre projet, incluez le fichier d'en-tête `ft_printf.h` dans vos fichiers source, et compilez votre projet en liant avec la bibliothèque `libftprintf.a`.
+## Usage
+To use the ft_printf library in your project, include the `ft_printf.h` header file in your source files, and compile your project by linking with the `libftprintf.a` library.
 
-Exemple de compilation:
+Compilation example :
 ```bash
 gcc -o mon_programme mes_sources.c -L. -lftprintf
 ```
