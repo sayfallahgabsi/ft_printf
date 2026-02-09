@@ -20,19 +20,12 @@ The project is organized as follows :
 
 ```
 .
-├── includes
+├── includes/
 │   ├── ft_printf.h
 │   └── libft.h
-├── libft
-│   ├── ft_is
-│   ├── ft_lst
-│   ├── ft_mem
-│   ├── ft_put
-│   ├── ft_str
-│   ├── ft_to
-│   └── Makefile
+├── libft/
 ├── Makefile
-└── srcs
+└── srcs/
     ├── ft_printf.c
     ├── ft_printf_utils.c
     ├── ft_print_hex.c
